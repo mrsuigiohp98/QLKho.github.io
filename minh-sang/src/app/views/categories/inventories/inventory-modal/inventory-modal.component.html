@@ -1,0 +1,53 @@
+<form nz-form [formGroup]="inventoryForm" autocomplete="off">
+    <nz-form-item>
+        <nz-form-label [nzSm]="7" [nzXs]="24" nzRequired nzFor="name">Vật tư</nz-form-label>
+        <nz-form-control [nzSm]="17" [nzXs]="24" nzErrorTip="Vui lòng nhập vật tư!">
+            <input type="text" nz-input formControlName="name" id="name" autofocus />
+        </nz-form-control>
+    </nz-form-item>
+
+    <nz-form-item>
+        <nz-form-label [nzSm]="7" [nzXs]="24" nzRequired nzFor="soluong">Số lượng</nz-form-label>
+        <nz-form-control [nzSm]="17" [nzXs]="24" nzErrorTip="Vui lòng nhập số lượng vật tư!">
+            <input type="text" nz-input formControlName="soluong" id="soluong" autofocus />
+        </nz-form-control>
+    </nz-form-item>
+    
+    <nz-form-item>
+        <nz-form-label [nzSm]="7" [nzXs]="24" nzRequired nzFor="noiSX">Nơi sản xuất</nz-form-label>
+        <nz-form-control [nzSm]="17" [nzXs]="24" nzErrorTip="Vui lòng nhập nơi sản xuất!">
+            <input type="text" nz-input formControlName="noiSX" id="noiSX" autofocus />
+        </nz-form-control>
+    </nz-form-item>
+
+    <nz-form-item>
+        <nz-form-label [nzSm]="7" [nzXs]="24" nzRequired nzFor="unitId">Tên đơn vị</nz-form-label>
+        <nz-form-control [nzSm]="17" [nzXs]="24" nzErrorTip="Vui lòng nhập vai trò!">
+          <nz-select nzPlaceHolder="Chọn tên đơn vị" nzAllowClear nzShowSearch formControlName="unitId" id="unitId">
+            <ng-container *ngFor="let item of listOfUnits">
+              <nz-option [nzValue]="item.id" [nzLabel]="item.name"></nz-option>
+            </ng-container>
+          </nz-select>
+        </nz-form-control>
+      </nz-form-item>
+
+      <nz-form-item>
+        <nz-form-label [nzSm]="7" [nzXs]="24" nzRequired nzFor="stockId">Tên kho</nz-form-label>
+        <nz-form-control [nzSm]="17" [nzXs]="24" nzErrorTip="Vui lòng nhập vai trò!">
+          <nz-select nzPlaceHolder="Chọn tên kho" nzAllowClear nzShowSearch formControlName="stockId" id="stockId">
+            <ng-container *ngFor="let item of listOfStocks">
+              <nz-option [nzValue]="item.id" [nzLabel]="item.name"></nz-option>
+            </ng-container>
+          </nz-select>
+        </nz-form-control>
+      </nz-form-item>
+</form>
+
+<div *nzModalFooter>
+    <button nz-button nzType="default" (click)="destroyModal()">
+        <i nz-icon nzType="close" nzTheme="outline"></i>Hủy
+    </button>
+    <button nz-button nzType="primary" (click)="saveChanges()" [nzLoading]="loadingSaveChanges">
+        <i nz-icon nzType="save" nzTheme="outline"></i>Lưu
+    </button>
+</div>

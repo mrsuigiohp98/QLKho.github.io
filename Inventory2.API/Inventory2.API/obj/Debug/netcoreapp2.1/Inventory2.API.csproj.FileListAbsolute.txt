@@ -1,0 +1,16 @@
+C:\Users\Admin\source\repos\Inventory2.API\Inventory2.API\obj\Debug\netcoreapp2.1\Inventory2.API.RazorAssemblyInfo.cache
+C:\Users\Admin\source\repos\Inventory2.API\Inventory2.API\obj\Debug\netcoreapp2.1\Inventory2.API.RazorAssemblyInfo.cs
+C:\Users\Admin\source\repos\Inventory2.API\Inventory2.API\obj\Debug\netcoreapp2.1\Inventory2.API.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\Inventory2.API\Inventory2.API\obj\Debug\netcoreapp2.1\Inventory2.API.AssemblyInfo.cs
+C:\Users\Admin\source\repos\Inventory2.API\Inventory2.API\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\Admin\source\repos\Inventory2.API\Inventory2.API\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\Admin\source\repos\Inventory2.API\Inventory2.API\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\Admin\source\repos\Inventory2.API\Inventory2.API\bin\Debug\netcoreapp2.1\Inventory2.API.deps.json
+C:\Users\Admin\source\repos\Inventory2.API\Inventory2.API\bin\Debug\netcoreapp2.1\Inventory2.API.runtimeconfig.json
+C:\Users\Admin\source\repos\Inventory2.API\Inventory2.API\bin\Debug\netcoreapp2.1\Inventory2.API.runtimeconfig.dev.json
+C:\Users\Admin\source\repos\Inventory2.API\Inventory2.API\bin\Debug\netcoreapp2.1\Inventory2.API.dll
+C:\Users\Admin\source\repos\Inventory2.API\Inventory2.API\bin\Debug\netcoreapp2.1\Inventory2.API.pdb
+C:\Users\Admin\source\repos\Inventory2.API\Inventory2.API\obj\Debug\netcoreapp2.1\Inventory2.API.RazorTargetAssemblyInfo.cache
+C:\Users\Admin\source\repos\Inventory2.API\Inventory2.API\obj\Debug\netcoreapp2.1\Inventory2.API.dll
+C:\Users\Admin\source\repos\Inventory2.API\Inventory2.API\obj\Debug\netcoreapp2.1\Inventory2.API.pdb
+C:\Users\Admin\source\repos\Inventory2.API\Inventory2.API\obj\Debug\netcoreapp2.1\Inventory2.API.csprojAssemblyReference.cache
